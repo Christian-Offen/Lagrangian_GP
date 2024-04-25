@@ -12,3 +12,6 @@ To reproduce the experiments, run
 
 Further experiments to learn discrete Lagrangians may be viewed in\
 `discrete/Ld_Learning_CertifiedGP.ipynb`
+
+Code runs in Julia Version 1.9.3.
+Please refer to .toml files for package versions in the subfolders.
