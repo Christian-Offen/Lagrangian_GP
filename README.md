@@ -6,8 +6,8 @@ C.Offen
 
 To reproduce the experiments of the artcile (and more), run
 
-`continuous/L_Learning_CertifiedGP.jl`\
-`discrete/Ld_Learning_CertifiedGP.jl`\
+`continuous/L_Learning_CertifiedGP_RUN.jl`\
+`discrete/Ld_Learning_CertifiedGP_RUN.jl`\
 `convergence/L_Learning_CertifiedGP_oscillator_1d_convergence_DoubleFloat.jl`
 
 Further experiments to learn discrete Lagrangians may be viewed in\
