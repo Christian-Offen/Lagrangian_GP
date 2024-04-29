@@ -146,6 +146,3 @@ pMaxVarH=plot(DataSizes,maxVarH, xaxis=:log, yaxis=:log, xlabel="data size",labe
 savefig(pMaxVarH,"plots/MaxVarH_"*mNow()*".pdf")
 
 println("End of script "*mNow())
-
-#using NBInclude
-#nbexport("L_Learning_CertifiedGP_oscillator_1d_convergence.jl", "L_Learning_CertifiedGP_oscillator_1d_convergence.ipynb")

@@ -291,7 +291,7 @@ plot!(size=(300,200))
 savefig(pcomparePhase3d,"plots/pcomparePhase3d_"*mNow()*".pdf")
 
 # save ode solution / energy / variance
-save("OdeSolution "*mNow()*".jld2","sol1_ref",sol1_ref,"sol1_ml",sol1_ml,"del_accuracy_trajectory",del_accuracy_trajectory,"var_ml_el_trajectory",var_ml_el_trajectory)
+save("OdeSolution "*mNow()*".jld2","sol1_ref",sol1_ref,"sol1_ml",sol1_ml,"del_accuracy_trajectory",del_accuracy_trajectory)
 
 println("End of script "*mNow())
 
