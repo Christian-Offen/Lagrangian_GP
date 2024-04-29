@@ -1,0 +1,16 @@
+Start: 2024-04-29_16:16:55
+samples per unit: 18.75
+predicted size of linear problem 603x603
+# samples within length scale: 92.52754126021273
+Define gamblet L_ml and variances 2024-04-29_16:17:19
+2024-04-29_16:18:22
+Normalisation: 
+L_ml(basept) 0.9999999999998757, p_ml(basept) [1.0000000000003755, 1.0000000000001164]
+Max var_ml_el(L_ml,data) [2.842170943040401e-14, 1.9539925233402755e-14]
+Condition linear problem in gamblet evaluation 4.3263809552574396e8
+Max el(L_ml,data) 2.298161660974074e-12
+discrete l1,l2,linf acceleration error: 0.11543583491932405, 0.09387772805252348, 0.42571325169785823
+discrete l1,l2,linf acceleration error: 0.10730867930909939, 0.10775477600036498, 0.7376914918953226
+Compute dynamics 2024-04-29_16:47:12
+Plotting/Saving of results 2024-04-29_16:51:49
+
