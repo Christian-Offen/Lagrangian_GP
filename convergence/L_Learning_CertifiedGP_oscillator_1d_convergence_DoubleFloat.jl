@@ -13,15 +13,17 @@ using SpecialFunctions
 using Dates
 using FileIO
 
+#using DoubleFloats, ForwardDiff, Plots, LinearAlgebra, HaltonSequences, BlockArrays, SpecialFunctions, Dates, FileIO
+
 include("EL_utilities.jl");
 include("L_learning_GP_utilities_ndim.jl");
 include("Error_Utilities.jl");
 
 # Data sizes for convergence test
-DataSizes = (2).^(1:6);
+DataSizes = (2).^(1:15);
 
 # use below for testing memory requirements in advance
-# NSamples=2^15; size_theta = 1*(NSamples+1)+1; println("Memory requirement: "*string(Base.format_bytes(size_theta*size_theta*8)))
+# NSamples=2^15; size_theta = 1*(NSamples+1)+1; println("Memory requirement: "*string(Base.format_bytes(size_theta*size_theta*16)))
 
 
 println("Data sizes: "*string(DataSizes))
@@ -146,3 +148,6 @@ pMaxVarH=plot(DataSizes,maxVarH, xaxis=:log, yaxis=:log, xlabel="data size",labe
 savefig(pMaxVarH,"plots/MaxVarH_"*mNow()*".pdf")
 
 println("End of script "*mNow())
+
+#using NBInclude
+#nbexport("L_Learning_CertifiedGP_oscillator_1d_convergence.jl", "L_Learning_CertifiedGP_oscillator_1d_convergence.ipynb")
