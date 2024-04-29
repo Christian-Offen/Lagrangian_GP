@@ -305,7 +305,7 @@ plot!(size=(300,200)); savefig(pDyn2,"plots/pDyn2_"*mNow()*".pdf")
 
 plot(pr(1).(sol_ref_interp),pr(2).(sol_ref_interp),pr(3).(sol_ref_interp),label="ref",color=:gray)
 plot!(pr(1).(sol_ml_interp),pr(2).(sol_ml_interp),pr(3).(sol_ml_interp),label="ml")
-pDyn23d=plot!(sol_ml_interp[1][1:1],sol_ml_interp[1][2:2],sol_ml_interp[1][3:3],marker=:circle,xlabel=L"x^0",ylabel=L"x^1",zlabel=L"\dot{x}_0",legend=L"x(0)")
+pDyn23d=plot!(sol_ml_interp[1][1:1],sol_ml_interp[1][2:2],sol_ml_interp[1][3:3],marker=:circle,xlabel=L"x^0",ylabel=L"x^1",zlabel=L"\dot{x}_0",label=L"x(0)")
 plot!(size=(300,200)); savefig(pDyn23d,"plots/pDyn23d_"*mNow()*".pdf")
 
 H_mlsol_ml_interp=H_ml.(sol_ml_interp);

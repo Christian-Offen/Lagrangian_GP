@@ -1,0 +1,10 @@
+Start: 2024-04-29_16:42:33
+Progress: 100%|███████████████████████████████████████████████████████████████████████████████████████████████| Time: 0:00:08
+samples per unit: 18.75
+predicted size of linear problem 603x603
+# samples within length scale: 92.52754126021273
+Define conditional mean L_ml and variances 2024-04-29_16:43:14
+2024-04-29_16:44:36
+Compute dynamics 2024-04-29_16:44:36
+Progress:   1%|▌                                                                                              Progress:   1%|▍                                                                      |  ETA: PrProgPrProgress: 100%|███████████████████████████████████████████████████████████████████| Time: 1:04:21
+

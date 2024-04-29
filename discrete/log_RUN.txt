@@ -1,0 +1,24 @@
+Start: 2024-04-29_16:02:13
+Progress: 100%|██████████████████████████████████████████████████████████████████| Time: 0:00:08
+samples per unit: 18.75
+predicted size of linear problem 603x603
+# samples within length scale: 92.52754126021273
+Define Ld_ml and variances 2024-04-29_16:02:56
+2024-04-29_16:03:46
+Normalisation: 
+Ld_ml(basept) 1.0000000001877711, p_ml(basept) [0.9999999999357787, 1.0000000000326785]
+Max var_ml_del(Ld_ml,data) [2.886579864025407e-15, 3.552713678800501e-15]
+Condition linear problem in evaluations 1.5039640192644882e15
+Max del(Ld_ml,data) 1.7840434685112427e-9
+discrete l1,l2,linf del failure: [4.0250572917552315e-6, 5.549385821828349e-6, 3.592930469225193e-5]
+Progress: 100%|██████████████████████████████████████████████████████████████████| Time: 0:01:18
+Progress: 100%|██████████████████████████████████████████████████████████████████| Time: 0:01:14
+Compute dynamics - reference model 2024-04-29_16:07:59
+Progress: 100%|██████████████████████████████████████████████████████████████████| Time: 0:00:00
+Compute dynamics - ml model 2024-04-29_16:07:59
+Progress: 100%|██████████████████████████████████████████████████████████████████| Time: 0:04:50
+max abs error del(Ld_ml,.) along trajectory: 9.994216565445413e-11
+Plotting/Saving of results 2024-04-29_16:13:11
+max abs error of trajectory: 0.0004299372121709666
+End of script 2024-04-29_16:13:17
+
