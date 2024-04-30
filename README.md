@@ -15,6 +15,7 @@ Further experiments to learn discrete Lagrangians may be viewed in\
 
 Code was run in Julia Version 1.10.2
 Please refer to .toml files for package versions. The convergence test was run in a different environment. For .toml files refer to the subfolder `convergence`.
+[![DOI](https://zenodo.org/badge/791395881.svg)](https://zenodo.org/doi/10.5281/zenodo.11093644)
 
 ![predicted motions with uncertainty quantification](https://github.com/Christian-Offen/Lagrangian_GP/blob/main/continuous/plots/eye_catcher1.png?raw=true "predicted motions with uncertainty quantification")
 ![predicted Hamiltonian to partially observed system with uncertainty quantification](https://github.com/Christian-Offen/Lagrangian_GP/blob/main/continuous/plots/eye_catcher_2.png?raw=true "predicted Hamiltonian to partially observed system with uncertainty quantification")
