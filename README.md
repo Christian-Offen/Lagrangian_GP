@@ -1,9 +1,10 @@
 # Lagrangian_GP
 Accompanying sourcecode for the article
 
-C.Offen\
+ChristianOffen\
 *Machine learning of continuous and discrete variational ODEs with guaranteed convergence and uncertainty quantifications* (2024)\
-Status: Preprint [arXiv:2404.19626](http://arxiv.org/abs/2404.19626)
+Status: Accepted for publication in *Mathematics of Computation*\
+Preprint: [arXiv:2404.19626](http://arxiv.org/abs/2404.19626)
 
 [Preprint on ResearchGate](https://dx.doi.org/10.13140/RG.2.2.16171.04646),
 [ArXiv author page](https://arxiv.org/a/offen_c_1.html),
